@@ -1,0 +1,215 @@
+
+
+/*----------------- Global Styles----------------*/
+body {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+img{ 
+width:300px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Amatic SC', cursive;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/*-------------Header------------------*/
+.site-header {
+    background: url("background-option3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    height: 750px;
+    color: #000000;
+}
+
+.site-header .site-header-intro{
+min-height:50vh;
+font-family: 'Satisfy', cursive;
+font-size:90px;
+padding:50px;
+
+
+}
+
+
+
+/*-------------Navigation----------------*/
+.navbar-toggler-icon{
+
+}
+
+
+nav ul{
+text-align:left;
+list-style-type:none;
+padding:0px;
+margin:0px;
+}
+
+    nav ul li {
+        font-family: 'Amatic SC', cursive;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 50px;
+        display: inline;
+        position: relative;
+        padding: 45px 95px;
+        cursor: pointer;
+    }
+
+nav ul li:hover {
+background:#000000;
+color: #ffffff;	
+}
+nav a:link ,nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-brand img{
+width:250px;
+}
+/*-------------About-----------------*/
+
+.site-about{
+color:#070504;
+}
+
+
+    .site-about h1 {
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+    }
+
+/*-------------Featured Projects-----------------*/
+.site-projects-gallery{
+background: url("background-option3.png");
+background-position:center bottom; 
+background-repeat:no-repeat;
+background-size:cover;
+height:850px;
+color:#ffffff;
+}
+
+    .site-projects-gallery h1 {
+        font-family: 'Amatic SC', cursive;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+.carousel-inner{
+padding:200px;
+}
+.carousel-item img{
+width:50%;	
+height50%;
+}
+.carousel-indicators{
+}
+.card{
+height:400px;}
+
+
+/*-------------Footer-Contact Info-----------------*/
+footer {
+    background: #000000;
+    color: #ffffff;
+}
+.social-media{
+padding-top:50px; 
+}
+
+.copy {
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;x
+}
+.social-media-img{
+width:50px;
+}
+
+
+
+
+
+/*-------------Contact Form-----------------*/
+form,
+.form-intro{
+width: 80%;
+margin: 0 auto;
+padding: 25px;
+color:#ffffff;
+}
+
+.form-intro{
+tex-align:center;
+}
+.contact-form{
+}
+form{
+color:#ffffff;
+}
+
+
+form li{
+list-style-type:none;
+}
+
+form label{
+width:150px;
+padding:25px;
+
+}
+
+.form-area-of-interest li{
+display:inline;
+
+}
+
+textarea {
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    width: 90%;
+    height: 10em;
+    overflow: auto;
+    padding: 10px;
+    line-height: normal;
+}
+.form-user-contact input[type="text"],
+.form-user-contact input[type="tel"],
+.form-user-contact input[type="url"],
+.form-user-contact input[type="email"],
+.form-user-contact input[type="number"],
+.form-user-contact select {
+  box-sizing: border-box;	
+  border: 1px solid #e1e1e1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px
+  padding:10px;
+  text-decoration: none;
+  line-height: normal;
+  max-height: 50px;
+}
+.form-submit{
+padding:25px;}
+.form-user-contact label {
+	flex: 2 1 90px;
+	max-width: 150px;
+}
